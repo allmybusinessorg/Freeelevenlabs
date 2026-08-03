@@ -13,12 +13,12 @@ export function CreatorSpotlight() {
 
           <div className="flex flex-col md:flex-row items-center gap-8 text-center md:text-left">
             {/* Developer Portrait Photo */}
-            <div className="w-32 h-32 sm:w-40 sm:h-40 rounded-3xl bg-gradient-to-tr from-amber-400 via-pink-500 to-purple-600 p-1 shadow-2xl shrink-0 overflow-hidden group">
+            <div className="w-36 h-36 sm:w-44 sm:h-44 rounded-3xl bg-gradient-to-tr from-amber-400 via-pink-500 to-purple-600 p-1 shadow-2xl shrink-0 overflow-hidden group">
               <div className="w-full h-full bg-slate-900 rounded-[22px] overflow-hidden relative">
                 <img
                   src="/sayak.jpg"
                   alt="Sayak 007 - Founder & Developer"
-                  className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
                 />
               </div>
             </div>
