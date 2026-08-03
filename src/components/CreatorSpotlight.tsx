@@ -12,13 +12,13 @@ export function CreatorSpotlight() {
           <div className="absolute top-0 right-0 w-80 h-80 bg-pink-500/10 rounded-full blur-3xl pointer-events-none" />
 
           <div className="flex flex-col md:flex-row items-center gap-8 text-center md:text-left">
-            {/* Developer Portrait Photo - Full Uncropped Length */}
-            <div className="w-44 h-56 sm:w-52 sm:h-64 rounded-3xl bg-gradient-to-tr from-amber-400 via-pink-500 to-purple-600 p-1 shadow-2xl shrink-0 overflow-hidden group">
-              <div className="w-full h-full bg-slate-950 rounded-[22px] overflow-hidden relative flex items-center justify-center">
+            {/* Developer Portrait Photo - Exact 9:16 Aspect Ratio Frame */}
+            <div className="h-64 sm:h-72 aspect-[9/16] rounded-3xl bg-gradient-to-tr from-amber-400 via-pink-500 to-purple-600 p-1 shadow-2xl shrink-0 overflow-hidden group">
+              <div className="w-full h-full bg-slate-900 rounded-[22px] overflow-hidden relative">
                 <img
                   src="/sayak.jpg"
                   alt="Sayak 007 - Founder & Developer"
-                  className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
               </div>
             </div>
