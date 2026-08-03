@@ -7,10 +7,12 @@ import { CreatorSpotlight } from "@/components/CreatorSpotlight";
 import { NewsletterSection } from "@/components/NewsletterSection";
 import { FAQSection } from "@/components/FAQSection";
 import { Footer } from "@/components/Footer";
+import { BackgroundAudioIcons } from "@/components/BackgroundAudioIcons";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-white text-slate-900 flex flex-col">
+    <main className="min-h-screen bg-white text-slate-900 flex flex-col relative">
+      <BackgroundAudioIcons />
       <Header />
       <Hero />
       <InteractiveDemo />
