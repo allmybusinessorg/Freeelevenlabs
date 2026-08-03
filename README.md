@@ -54,24 +54,6 @@ Engineered and maintained by **Sayak 007** and the team at **Creative Creature**
 
 ---
 
-## 🚀 Quick Start (Running Locally)
-
-```bash
-# 1. Clone this repository
-git clone https://github.com/allmybusinessorg/Freeelevenlabs.git
-cd Freeelevenlabs
-
-# 2. Install dependencies
-npm install
-
-# 3. Run development server
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser to view the web portal.
-
----
-
 ## 📩 Stay Updated
 
 Subscribe to our developer newsletter to get notified about new free AI tools and updates:  
