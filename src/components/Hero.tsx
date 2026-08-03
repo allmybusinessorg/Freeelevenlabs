@@ -27,24 +27,31 @@ export function Hero() {
         </p>
 
         {/* Action CTAs */}
-        <div id="download" className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
-          <a
-            href="https://github.com/allmybusinessorg/Freeelevenlabs/releases"
-            target="_blank"
-            rel="noreferrer"
-            className="w-full sm:w-auto flex items-center justify-center gap-3 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-2xl font-extrabold text-base shadow-xl shadow-blue-500/25 hover:shadow-blue-500/40 transition-all transform hover:-translate-y-0.5 active:scale-95"
-          >
-            <Download className="w-5 h-5" />
-            <span>Download for Windows (64-bit)</span>
-          </a>
+        <div id="download" className="flex flex-col items-center justify-center gap-4 mb-16">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 w-full sm:w-auto">
+            <a
+              href="https://github.com/allmybusinessorg/Freeelevenlabs/releases"
+              target="_blank"
+              rel="noreferrer"
+              className="w-full sm:w-auto flex items-center justify-center gap-3 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-2xl font-extrabold text-base shadow-xl shadow-blue-500/25 hover:shadow-blue-500/40 transition-all transform hover:-translate-y-0.5 active:scale-95"
+            >
+              <Download className="w-5 h-5" />
+              <span>Download for Windows (64-bit)</span>
+            </a>
 
-          <a
-            href="#demo"
-            className="w-full sm:w-auto flex items-center justify-center gap-2 bg-slate-100 hover:bg-slate-200 text-slate-800 px-7 py-4 rounded-2xl font-bold text-base transition-all border border-slate-200"
-          >
-            <span>Try Live Preview</span>
-            <ArrowRight className="w-4 h-4 text-slate-500" />
-          </a>
+            <a
+              href="#demo"
+              className="w-full sm:w-auto flex items-center justify-center gap-2 bg-slate-100 hover:bg-slate-200 text-slate-800 px-7 py-4 rounded-2xl font-bold text-base transition-all border border-slate-200"
+            >
+              <span>Try Live Preview</span>
+              <ArrowRight className="w-4 h-4 text-slate-500" />
+            </a>
+          </div>
+
+          <div className="flex items-center justify-center gap-2 text-xs font-semibold text-slate-500 mt-2 bg-slate-50 border border-slate-200 px-3.5 py-1.5 rounded-full">
+            <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
+            <span>v1.0 Full Studio Engine Live • 8-Bit Quantized Edition (v1.1) Coming Soon</span>
+          </div>
         </div>
 
         {/* Trust Badges */}
