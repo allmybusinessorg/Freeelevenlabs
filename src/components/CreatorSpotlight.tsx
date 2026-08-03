@@ -1,6 +1,6 @@
 "use client";
 
-import { Sparkles, Camera, Globe, Heart, ArrowUpRight } from "lucide-react";
+import { Sparkles, Camera, Globe, ArrowUpRight } from "lucide-react";
 
 export function CreatorSpotlight() {
   return (
@@ -12,25 +12,30 @@ export function CreatorSpotlight() {
           <div className="absolute top-0 right-0 w-80 h-80 bg-pink-500/10 rounded-full blur-3xl pointer-events-none" />
 
           <div className="flex flex-col md:flex-row items-center gap-8 text-center md:text-left">
-            {/* Avatar Badge */}
-            <div className="w-28 h-28 sm:w-36 sm:h-36 rounded-3xl bg-gradient-to-tr from-amber-400 via-pink-500 to-purple-600 p-1 shadow-xl shrink-0">
-              <div className="w-full h-full bg-slate-900 rounded-[22px] flex items-center justify-center">
-                <Sparkles className="w-14 h-14 text-amber-400 animate-pulse" />
+            {/* Developer Portrait Photo */}
+            <div className="w-32 h-32 sm:w-40 sm:h-40 rounded-3xl bg-gradient-to-tr from-amber-400 via-pink-500 to-purple-600 p-1 shadow-2xl shrink-0 overflow-hidden group">
+              <div className="w-full h-full bg-slate-900 rounded-[22px] overflow-hidden relative">
+                <img
+                  src="/sayak.jpg"
+                  alt="Sayak 007 - Founder & Developer"
+                  className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
+                />
               </div>
             </div>
 
             {/* Details */}
             <div className="space-y-4 flex-1">
-              <div className="inline-flex items-center gap-2 bg-amber-400/20 text-amber-300 border border-amber-400/30 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider">
+              <div className="inline-flex items-center gap-2 bg-amber-400/20 text-amber-300 border border-amber-400/30 px-3.5 py-1 rounded-full text-xs font-bold uppercase tracking-wider">
+                <Sparkles className="w-3.5 h-3.5 text-amber-400" />
                 <span>Meet The Developer</span>
               </div>
 
-              <h3 className="text-3xl font-extrabold tracking-tight">
+              <h3 className="text-3xl sm:text-4xl font-extrabold tracking-tight">
                 Designed & Built by Sayak 007
               </h3>
 
-              <p className="text-slate-300 text-sm leading-relaxed max-w-xl">
-                Founder of <strong className="text-white">I.SAYAK007 HQ</strong> and creator behind <strong className="text-white">@we.arecc</strong>. I build free, high-performance software tools for creators, developers, and AI enthusiasts.
+              <p className="text-slate-300 text-sm sm:text-base leading-relaxed max-w-xl">
+                Founder of <strong className="text-white font-semibold">I.SAYAK007 HQ</strong> and creator behind <strong className="text-white font-semibold">@we.arecc</strong>. I build free, high-performance AI tools for creators, developers, and global users.
               </p>
 
               <div className="flex flex-wrap items-center justify-center md:justify-start gap-4 pt-2">
