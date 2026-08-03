@@ -6,6 +6,7 @@ import { EngineCredits } from "@/components/EngineCredits";
 import { CreatorSpotlight } from "@/components/CreatorSpotlight";
 import { NewsletterSection } from "@/components/NewsletterSection";
 import { FAQSection } from "@/components/FAQSection";
+import { LiveStatsCounter } from "@/components/LiveStatsCounter";
 import { Footer } from "@/components/Footer";
 import { BackgroundAudioIcons } from "@/components/BackgroundAudioIcons";
 
@@ -21,6 +22,7 @@ export default function Home() {
       <CreatorSpotlight />
       <NewsletterSection />
       <FAQSection />
+      <LiveStatsCounter />
       <Footer />
     </main>
   );
