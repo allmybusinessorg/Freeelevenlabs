@@ -24,9 +24,11 @@ export function Header() {
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
         {/* Brand Logo */}
         <a href="#" className="flex items-center gap-3 group">
-          <div className="w-10 h-10 rounded-xl bg-slate-900 flex items-center justify-center shadow-md group-hover:scale-105 transition-transform">
-            <Play className="w-5 h-5 text-white ml-0.5" />
-          </div>
+          <img
+            src="/app-icon.png"
+            alt="Creative Audio AI"
+            className="w-10 h-10 rounded-xl shadow-md border border-slate-200/80 object-cover group-hover:scale-105 transition-transform"
+          />
           <div className="flex flex-col">
             <span className="font-extrabold text-xl tracking-tight text-slate-900 leading-none">
               Creative Audio AI
