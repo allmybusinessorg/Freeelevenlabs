@@ -12,7 +12,7 @@ export function InteractiveDemo() {
       title: "Voice Design Mode",
       desc: "Describe the voice in plain English. The AI synthesizes the exact tone, age, emotion, and cadence.",
       prompt: "A warm, authoritative male narrator with a deep resonant voice and slow cadence...",
-      text: "Welcome to Luxe Audio. Experience continuous, tokenizer-free speech generation running 100% locally on your computer.",
+      text: "Welcome to Creative Audio AI. Experience continuous, tokenizer-free speech generation running 100% locally on your computer.",
       sampleUrl: "https://actions.google.com/sounds/v1/ambiences/rain_heavy.ogg" // sample placeholder
     },
     clone: {
@@ -26,7 +26,7 @@ export function InteractiveDemo() {
       title: "Ultimate Zero-Shot Clone",
       desc: "Exact 1-to-1 voice duplication with natural breathing, pitch dynamics, and studio-grade clarity.",
       prompt: "Match reference voice pitch and accent exactly...",
-      text: "Luxe Audio delivers state-of-the-art voice cloning directly on your Windows PC.",
+      text: "Creative Audio AI delivers state-of-the-art voice cloning directly on your Windows PC.",
       sampleUrl: "https://actions.google.com/sounds/v1/ambiences/rain_heavy.ogg"
     }
   };

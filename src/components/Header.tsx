@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Play, Download, Sparkles, Camera, Github, Menu, X } from "lucide-react";
+import { Play, Download, Sparkles, Github, Menu, X } from "lucide-react";
 
 export function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -29,7 +29,7 @@ export function Header() {
           </div>
           <div className="flex flex-col">
             <span className="font-extrabold text-xl tracking-tight text-slate-900 leading-none">
-              Luxe Audio
+              Creative Audio AI
             </span>
             <span className="text-[10px] font-semibold tracking-widest uppercase text-blue-600 mt-1">
               Free ElevenLabs Alt
@@ -46,7 +46,7 @@ export function Header() {
             Live Preview
           </a>
           <a href="#engine" className="hover:text-slate-900 transition-colors">
-            Engine Credits
+            OpenBMB Credits
           </a>
           <a href="#creator" className="hover:text-slate-900 transition-colors">
             Creator
@@ -65,7 +65,7 @@ export function Header() {
             className="flex items-center gap-2 bg-slate-100 hover:bg-slate-200 text-slate-800 px-3.5 py-1.5 rounded-full text-xs font-bold transition-all border border-slate-200/60"
           >
             <Sparkles className="w-3.5 h-3.5 text-amber-500" />
-            <span>Built by Sayak 007</span>
+            <span>By Sayak 007</span>
           </a>
 
           <a
@@ -118,7 +118,7 @@ export function Header() {
             onClick={() => setMobileMenuOpen(false)}
             className="block text-base font-semibold text-slate-800 py-1"
           >
-            Engine Credits
+            OpenBMB Credits
           </a>
           <a
             href="#faq"
@@ -135,7 +135,7 @@ export function Header() {
               className="flex items-center justify-center gap-2 bg-slate-100 text-slate-900 py-3 rounded-xl font-bold text-sm"
             >
               <Sparkles className="w-4 h-4 text-amber-500" />
-              <span>Built by Sayak 007</span>
+              <span>By Sayak 007</span>
             </a>
             <a
               href="#download"
