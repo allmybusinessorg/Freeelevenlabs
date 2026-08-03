@@ -10,6 +10,10 @@
 🌐 **Official Website**: [https://freeelevenlabs.vercel.app](https://freeelevenlabs.vercel.app)  
 📦 **GitHub Repository**: [github.com/allmybusinessorg/Freeelevenlabs](https://github.com/allmybusinessorg/Freeelevenlabs)
 
+> ⭐ **Loving Creative Audio AI? Give us a Star!**  
+> If this free software helps your voiceover & content creation workflow, **please give us a Star on GitHub!** Your star helps more creators discover free, privacy-first offline AI tools.  
+> 👉 **[Click here to Star this Repository ⭐](https://github.com/allmybusinessorg/Freeelevenlabs)**
+
 ---
 
 ## 🚀 Overview

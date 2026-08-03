@@ -4,6 +4,7 @@ import { Features } from "@/components/Features";
 import { InteractiveDemo } from "@/components/InteractiveDemo";
 import { EngineCredits } from "@/components/EngineCredits";
 import { CreatorSpotlight } from "@/components/CreatorSpotlight";
+import { GitHubStarBanner } from "@/components/GitHubStarBanner";
 import { NewsletterSection } from "@/components/NewsletterSection";
 import { FAQSection } from "@/components/FAQSection";
 import { LiveStatsCounter } from "@/components/LiveStatsCounter";
@@ -20,6 +21,7 @@ export default function Home() {
       <Features />
       <EngineCredits />
       <CreatorSpotlight />
+      <GitHubStarBanner />
       <NewsletterSection />
       <FAQSection />
       <LiveStatsCounter />
