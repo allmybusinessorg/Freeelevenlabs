@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://freeelevenlabs.vercel.app"),
   title: "Creative Audio AI | Free ElevenLabs Alternative for PC (Offline Voice Generator)",
   description: "Download Creative Audio AI — 100% free, unlimited, offline AI voice cloning and continuous speech generation for Windows 10/11 (64-bit). Powered by OpenBMB VoxCPM2. Zero subscriptions.",
   keywords: [
@@ -12,15 +13,20 @@ export const metadata: Metadata = {
     "Creative Creature AI",
     "Sayak 007",
     "OpenBMB VoxCPM2",
-    "Zero shot voice cloning software free"
+    "Zero shot voice cloning software free",
+    "freeelevenlabs.vercel.app"
   ],
   authors: [{ name: "Sayak 007" }],
+  alternates: {
+    canonical: "https://freeelevenlabs.vercel.app",
+  },
   verification: {
     google: "zeHQzQn1T4PlbdVol_BbhPe3MzTdDVRddt5xwmxtWS4",
   },
   openGraph: {
     title: "Creative Audio AI - Free ElevenLabs Alternative for PC",
     description: "Unlimited studio-quality 48kHz AI voice synthesis & cloning on Windows PC.",
+    url: "https://freeelevenlabs.vercel.app",
     type: "website",
   },
 };
@@ -36,6 +42,8 @@ const jsonLdSchema = {
     "price": "0.00",
     "priceCurrency": "USD"
   },
+  "url": "https://freeelevenlabs.vercel.app",
+  "downloadUrl": "https://github.com/allmybusinessorg/Freeelevenlabs/releases",
   "description": "Free ElevenLabs Alternative — Unlimited offline AI voice cloning and text-to-speech software for Windows PC, powered by OpenBMB VoxCPM.",
   "author": {
     "@type": "Person",
