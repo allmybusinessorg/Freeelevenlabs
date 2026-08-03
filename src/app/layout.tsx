@@ -15,6 +15,9 @@ export const metadata: Metadata = {
     "Zero shot voice cloning software free"
   ],
   authors: [{ name: "Sayak 007" }],
+  verification: {
+    google: "zeHQzQn1T4PlbdVol_BbhPe3MzTdDVRddt5xwmxtWS4",
+  },
   openGraph: {
     title: "Creative Audio AI - Free ElevenLabs Alternative for PC",
     description: "Unlimited studio-quality 48kHz AI voice synthesis & cloning on Windows PC.",
@@ -54,6 +57,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <head>
+        <meta name="google-site-verification" content="zeHQzQn1T4PlbdVol_BbhPe3MzTdDVRddt5xwmxtWS4" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
